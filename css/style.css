@@ -11,7 +11,7 @@ body{
     /*****--------------- Header Area ---------------*****/
 
 .header{
-    background-image: url(../img/bg-hero.jpg);
+    background-image: url(../img/hero-bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -593,12 +593,6 @@ body{
         width: 80%;
         font-size: 2vh;
     }
-    .about{
-        background-color: #3b98ea;
-    }
-    .about-head{
-        background-color: #205788;
-    }
     .about-head > h1{
         font-size: 40px;
         color: #3c3c3c;
@@ -618,9 +612,6 @@ body{
     }
     .about-right > img {
         width: 40vh;
-    }
-    .blog{
-        background-color: #205788;
     }
 }
 

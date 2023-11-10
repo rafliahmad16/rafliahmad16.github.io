@@ -157,7 +157,6 @@ body{
     justify-content: center;
     background-color: #fcfcfc;
     box-sizing: border-box;
-    background-color: #0f9fbf;
 }
 .about-left{
     display: flex;
@@ -221,7 +220,6 @@ body{
         justify-content: center;
         background-color: #fcfcfc;
         box-sizing: border-box;
-        background-color: #0f9fbf;
     }
 }
 
@@ -605,7 +603,6 @@ body{
         justify-content: center;
         background-color: #fcfcfc;
         box-sizing: border-box;
-        background-color: #0f9fbf;
     }
     .about-left {
         flex-wrap: wrap;

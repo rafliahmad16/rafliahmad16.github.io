@@ -391,22 +391,63 @@ body{
     display: grid;
     grid-template-areas: 
         'footer-left footer-middle footer-right';
-    align-items: center;
-    padding: 60px 50px;
-    background-color: #3b98ea;
-    background-image: url(../img/bg-hero.jpg);
+    justify-items: center;
+    align-content: center;
+    padding: 60px 80px;
+    background-color: rgb(15, 47, 75);
     background-position: center;
     background-size: cover;
     color: white;
 }
 .footer-left-content{
     grid-area: footer-left;
+    
 }
+.footer-left-content > h2 {
+    font-size: 30px;
+}
+
 .footer-middle-content{
     grid-area: footer-middle;
 }
+.footer-caption-content {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(141, 151, 159);
+}
+.footer-middle-content > .links{
+    list-style: none;
+}
+.footer-middle-content > .links > li > a {
+    text-decoration: none;
+    color: #fff;
+    transition: all .1s ease-in-out;
+}
+.footer-middle-content > .links > li > a:hover{
+    color: #3b98ea;
+}
 .footer-right-content{
     grid-area: footer-right;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer-right-content > .social-media{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.footer-right-content > .social-media > li > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+}
+.footer-right-content > .social-media > li > a:hover{
+    color: #3b98ea;
 }
 
     /*****--------------- Footer Area ---------------*****/
@@ -450,6 +491,18 @@ body{
         width: auto;
         background-size: cover;
         background-position: center;
+    }
+    .footer{
+        display: grid;
+        grid-template-areas: 
+            'footer-left'
+            'footer-middle footer-right';
+        padding: 60px 20px;
+        gap: 30px;
+        background-color: rgb(15, 47, 75);
+        background-position: center;
+        background-size: cover;
+        color: white;
     }
 }
 
@@ -560,6 +613,22 @@ body{
     }
     .about-right > img{
         width: 50vh;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-areas: 
+            'footer-left'
+            'footer-middle'
+            'footer-right';
+        align-items: start;
+        justify-items: start;
+        padding: 60px 50px;
+        gap: 30px;
+        background-color: rgb(15, 47, 75);
+        background-position: center;
+        background-size: cover;
+        color: white;
     }
 
 }
